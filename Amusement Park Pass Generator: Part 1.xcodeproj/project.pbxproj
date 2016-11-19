@@ -14,6 +14,7 @@
 		45FEFBA51DE0EA3600F3E9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45FEFBA31DE0EA3600F3E9CE /* LaunchScreen.storyboard */; };
 		45FEFBB01DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEFBAF1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1Tests.swift */; };
 		45FEFBBB1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEFBBA1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift */; };
+		45FEFBC91DE0F54900F3E9CE /* Requirements in Resources */ = {isa = PBXBuildFile; fileRef = 45FEFBC81DE0F54900F3E9CE /* Requirements */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		45FEFBB61DE0EA3700F3E9CE /* Amusement Park Pass Generator: Part 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amusement Park Pass Generator: Part 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FEFBBA1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amusement_Park_Pass_Generator__Part_1UITests.swift; sourceTree = "<group>"; };
 		45FEFBBC1DE0EA3700F3E9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45FEFBC81DE0F54900F3E9CE /* Requirements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				45FEFB9E1DE0EA3600F3E9CE /* Main.storyboard */,
 				45FEFBA11DE0EA3600F3E9CE /* Assets.xcassets */,
 				45FEFBA31DE0EA3600F3E9CE /* LaunchScreen.storyboard */,
+				45FEFBC81DE0F54900F3E9CE /* Requirements */,
 				45FEFBA61DE0EA3600F3E9CE /* Info.plist */,
 			);
 			path = "Amusement Park Pass Generator: Part 1";
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FEFBC91DE0F54900F3E9CE /* Requirements in Resources */,
 				45FEFBA51DE0EA3600F3E9CE /* LaunchScreen.storyboard in Resources */,
 				45FEFBA21DE0EA3600F3E9CE /* Assets.xcassets in Resources */,
 				45FEFBA01DE0EA3600F3E9CE /* Main.storyboard in Resources */,

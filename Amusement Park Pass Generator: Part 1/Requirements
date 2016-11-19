@@ -1,0 +1,24 @@
+*** Requirements ***
+Build data structures to represent the entrant types listed for Part I and specified in the. Be sure to leverage protocols, enums, optional and where needed classes or structs.
+
+Create initializer methods to create entrants based on hard-coded plug values you will supply in your code. In Part II we will use these methods to create entrants based on user input.
+
+Create a set of plug values for each valid entrant type, for at least some entrant types, values can have missing information such that they will trigger errors. Include these sets of plug values in your code as comments so that reviewers can uncomment them and run your code for various types of entrants.
+
+Create a set of informative errors and be sure they are thrown at appropriate times, such as when personal information is not complete.
+
+Create at least one swipe⁺ method (or more if you prefer to have different swipe methods for rides, registers, restricted areas) which can assess an entrants right to access areas within the park, ride rides, skip ride lines, or receive discounts and shops and eateries. You can think of this as the logic which would reside at a ride turnstile, restricted door or cash register, in the case of discounts. Please note, when a user is denied access to a ride or area, that is not an “error”, the method should handle that “failing” situation and print a suitable message to the console.
+
+⁺NOTE: When we say swipe we mean a user swiping their pass at a ride or cash register. This has nothing to do with the swipe gesture found on mobile devices.
+
+Be sure to use expressive type names, as well as comments as you see fit. If you see an opportunity to employ a more advanced feature we have not yet covered, feel free to cite that in a comment.
+
+*** Extra Credit ***
+
+To get an "exceeds" rating, students must implement all of the following features:
+
+Add a feature to the swipe method(s), so that when an entrant swipes on their birthday, they receive a personalized message, if their birthday is known.
+
+Add a feature to the swipe method(s), so that a “ding” sound is played when an entrant is granted access and a “buzz” sound is played when an entrant is denied access.
+
+Add a feature to disallow a guest from swiping into the same ride twice in row, at the same check (as in, prevent swiping twice quickly to sneak in a second person). Rejecting an entrants second swipe should be done gracefully with an explanation message.
