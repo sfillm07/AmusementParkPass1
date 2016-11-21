@@ -15,6 +15,7 @@
 		45FEFBB01DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEFBAF1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1Tests.swift */; };
 		45FEFBBB1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEFBBA1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift */; };
 		45FEFBC91DE0F54900F3E9CE /* Requirements in Resources */ = {isa = PBXBuildFile; fileRef = 45FEFBC81DE0F54900F3E9CE /* Requirements */; };
+		45FEFBCB1DE126E800F3E9CE /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEFBCA1DE126E800F3E9CE /* Visitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		45FEFBBA1DE0EA3700F3E9CE /* Amusement_Park_Pass_Generator__Part_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amusement_Park_Pass_Generator__Part_1UITests.swift; sourceTree = "<group>"; };
 		45FEFBBC1DE0EA3700F3E9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45FEFBC81DE0F54900F3E9CE /* Requirements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Requirements; sourceTree = "<group>"; };
+		45FEFBCA1DE126E800F3E9CE /* Visitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				45FEFB9A1DE0EA3600F3E9CE /* AppDelegate.swift */,
 				45FEFB9C1DE0EA3600F3E9CE /* ViewController.swift */,
 				45FEFB9E1DE0EA3600F3E9CE /* Main.storyboard */,
+				45FEFBCA1DE126E800F3E9CE /* Visitor.swift */,
 				45FEFBA11DE0EA3600F3E9CE /* Assets.xcassets */,
 				45FEFBA31DE0EA3600F3E9CE /* LaunchScreen.storyboard */,
 				45FEFBC81DE0F54900F3E9CE /* Requirements */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45FEFB9D1DE0EA3600F3E9CE /* ViewController.swift in Sources */,
+				45FEFBCB1DE126E800F3E9CE /* Visitor.swift in Sources */,
 				45FEFB9B1DE0EA3600F3E9CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				45FEFBC11DE0EA3700F3E9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FEFBC21DE0EA3700F3E9CE /* Build configuration list for PBXNativeTarget "Amusement Park Pass Generator: Part 1Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				45FEFBC41DE0EA3700F3E9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45FEFBC51DE0EA3700F3E9CE /* Build configuration list for PBXNativeTarget "Amusement Park Pass Generator: Part 1UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				45FEFBC71DE0EA3700F3E9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
